@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather',serif;
+    font-family: 'Nuito',sans-serif;
+    font-family: 'Roboto',sans-serif;
+}
+header{
+    width: 100%;
+    height: 650px;
+    background:#3a6073 ;
+    background: -webkit-linear-gradient(to right,rgba(102,125,182,0.2),rgba(0,130,200,0.2),rgba(0,130,200,0.2),rgba(102,125,182,0.1));
+    background: linear-gradient(to right,rgba(213,240,0.89),rgba(244,213,240,0.89),rgba(244,213,240,0.2),rgba(102,125182,0.2), url(../img/maquillaje1));
+    
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.ola{
+    position: absolute;
+    bottom: 17px;
+    width: 100%;
+}
+nav{
+    background: rgba(0,0,0,0.31);
+    text-align: right;
+    padding: 20px;
+}
+a{
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+}
+.inicio{
+    text-align: center;
+    margin-top: 220px;
+    font-size: 38px;
+    font-weight: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+h1{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 900;
+}
+.contenedor{
+    background: #fff;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: #1B77B0;
+    padding: 10px;
+}
+.galeria{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+}
+.img{
+    width: 500px;
+    height: 530px;
+    margin: 15px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.49);
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+.imagen{
+    width: 330px;
+    height: 320px;
+}
+.img h3{
+    padding: 5px;
+}
+.img p{
+    text-align: justify;
+    padding: 12px;
+    line-height: 1.5;
+}
+.img:hover{
+    transform: translateY(-15px);
+}
+.imagen:active{
+    transform: scale(1.5);
+    transition: 2s;
+}
+.contenedor-nosotros{
+    background: #F2F3F4;
+}
+.cont-Servicio{
+    width: 30px;
+    align-items: 15px;
+    display: flex;
+    padding: 15px;
+    justify-content:space-between;
+}
+.img-nosotros{
+    width: 530px;
+    height: 500px;
+}
+.text-nosotros p{
+    font-size: 20px;
+    text-align: right;
+    line-height: 1.5;
+}
+.contenedor-servicio{
+    display: flex;
+}
+.servicio{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    box-shadow: 0px 5p 10px rgba(0,0,0,0.49);
+    border-radius: 15px;
+    overflow:inherit;
+    text-align: center;
+}
+.text-nosotros p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+footer{
+    background: #2C3E50;
+    padding: 30px;
+}
+.contenedor-footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.cont-footer{
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+.img-footer{
+    width: 50px;
+}
+.text-footer{
+    border-top: 16px solid #ccc;
+    color: #CCCC;
+}
+
+
+
+
+
+
+
+
+
+
